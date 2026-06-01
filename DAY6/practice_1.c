@@ -6,7 +6,6 @@ int main() {
     printf("Enter a decimal number: ");
     scanf("%d", &num);
 
-    // Convert decimal to binary
     while (num > 0) {
         binary[i] = num % 2;
         num = num / 2;
@@ -15,7 +14,6 @@ int main() {
 
     printf("Binary number = ");
 
-    // Print binary in reverse order
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
